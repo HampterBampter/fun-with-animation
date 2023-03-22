@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    opacity: 1;
+    padding: 5%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.element {
+    width: 100%;
+    HEIGHT: 5%;
+    animation: pulse 10s infinite;
+}
+
+.img_fade {
+    animation: fade 10s infinite;
+}
+
+p {
+    color: grey;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: paleturquoise;
+    }
+
+    50% {
+        background-color: yellowgreen;
+    }
+
+    100% {
+        background-color: paleturquoise;
+    }
+
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+html,
+body {
+    height: 100%;
+}
